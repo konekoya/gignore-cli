@@ -4,7 +4,8 @@
   "description": "A simple CLI tool for generating .gitignore file",
   "author": "konekoya",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "directory": "https://github.com/konekoya/gignore-cli.git"
   },
   "main": "index.js",
   "license": "MIT",
