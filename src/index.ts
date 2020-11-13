@@ -54,7 +54,7 @@ type Reply = 'yes' | 'no';
 
   if (`${searchTerm}` in ignores) {
     const content = ignores[searchTerm].contents.trim();
-    const writePath = path.resolve(__dirname, '.gitignore');
+    const writePath = path.resolve(process.cwd(), '.gitignore');
 
     if (!fs.existsSync(writePath)) {
       fs.writeFileSync(writePath, content);
