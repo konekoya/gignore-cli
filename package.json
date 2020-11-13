@@ -1,6 +1,6 @@
 {
   "name": "gignore-cli",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A simple CLI tool for generating .gitignore file",
   "author": "konekoya",
   "repository": {
@@ -34,6 +34,11 @@
     "typescript": "^4.0.5",
     "yargs": "^16.1.0"
   },
+  "files": [
+    "dist",
+    "src",
+    "tsconfig.json"
+  ],
   "keywords": [
     ".gitignore",
     "gitignore"
