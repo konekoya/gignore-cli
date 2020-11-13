@@ -74,8 +74,8 @@ type Reply = 'yes' | 'no';
   } else {
     console.log(
       chalk.red(
-        `Sorry, the template name "${searchTerm}" you specified didn't match anything from our template list!`
-      )
+        `Sorry, the template name "${searchTerm}" you specified didn't match anything from our template list!`,
+      ),
     );
   }
 })();
