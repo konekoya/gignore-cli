@@ -28,8 +28,6 @@ type Reply = 'yes' | 'no';
 (async () => {
   const argv: Argv = require('yargs/yargs')(process.argv.slice(2))
     .usage('Git ignore CLI\n\nUsage: $0 <cmd> [options]')
-    .command('add', 'add a new .gitignore file)') // describe commands available.
-    .command('append', 'append new .gitignore to existing one')
     .help('help')
     .alias('help', 'h')
     .version('version', json.version || 'Unknown')
